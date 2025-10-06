@@ -1,7 +1,8 @@
-site_name: My Docs
+site_name: AtakaDocs
 site_url: https://mydomain.org/mysite
 theme:
   name: material
+  custom_dir: overrides
   palette:
 
     # Palette toggle for automatic mode
@@ -9,19 +10,21 @@ theme:
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
-
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default 
+      primary: black
+      accent: red
       toggle:
-        icon: material/brightness-7
+        icon: material/toggle-switch
         name: Switch to dark mode
-
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: black
+      accent: red
       toggle:
-        icon: material/brightness-4
+        icon: material/toggle-switch-off-outline
         name: Switch to system preference
 
   features:
@@ -34,10 +37,19 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.path
     - search.suggest
     - search.highlight
     - search.share
     - content.code.copy
+    - toc.integrate
+    - header.autohide
+
+  icon:
+    logo: fontawesome/solid/fish-fins
+    search: material/diving-snorkel
+
+  favicon: assets/fishing.png
   
 markdown_extensions:
 
@@ -61,6 +73,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+       custom_icons:
+         - overrides/.icons
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.keys
@@ -78,14 +93,35 @@ plugins:
   - tags:
       tags: true
   - blog
+# TODO: set up social cards
 
 nav:
-  - Home: index.md
-  - Code Docs:
-    - Java: coding/java_file.md
-  - About: 
-    - About Me: about/about.md
-    - Experience: about/experience.md
-  - Tags: tags.md
-  - Blog:
+  - Dock: index.md
+  - Deep Dives:
     - blog/index.md
+  - Catch & Release:
+    - Java: coding/java_file.md
+  - Resources:
+    - resources\about.md
+  - Tags: tags.md
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      name: GitHub
+      link: https://github.com/JanRII23
+    - icon: fontawesome/brands/linkedin
+      name: LinkedIn
+      link: www.linkedin.com/in/janrejasii
+    - icon: fontawesome/brands/youtube
+      name: YouTube
+      link: https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1
+
+# TODO: cookie setting + feedback (need google analytics)
+# TODO: commenting system
+
+copyright: Copyright &copy; 2025 - &infin; Jan Rejas II
+
+extra_css:
+  - stylesheets/extra.css
