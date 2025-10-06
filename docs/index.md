@@ -1,17 +1,13 @@
-# Welcome to MkDocs
+# Welcome to AtakaDocs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+_"A day without ( learning | laughter ) is a lost day"_
 
-## Commands
+## Background
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Passionate software developer with a strong interest in holistic software development, aiming to become a well-rounded professional who can contribute across every stage of the development lifecycle.
 
-## Project layout
+## Purpose
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+The aim for this mkdoc is to document my journey toward becoming a better SWE by exploring programming concepts, best practices, tools, and real-world problem-solving techniques. Through tutorials, reflections, and practical examples, everything documented aims to provide both a learning resource for others and a personal space to track growth, experiment with new technologies, and refine development skills. This is intended as a guide for anyone looking to be a better in software development
+
+<!-- need to setup the custome pages for the landing eventually -->
