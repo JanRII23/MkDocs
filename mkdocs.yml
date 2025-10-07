@@ -100,7 +100,13 @@ nav:
   - Deep Dives:
     - blog/index.md
   - Catch & Release:
+    - coding/about.md
     - Java: coding/java_file.md
+    - Python: coding/python_file.md
+  - Projects:
+    - projects/about.md
+  - Rig:
+    - tools/about.md
   - Resources:
     - resources/about.md
   - Tags: tags.md
@@ -125,3 +131,6 @@ copyright: Copyright &copy; 2025 - &infin; Jan Rejas II
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/tooltip.js

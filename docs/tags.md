@@ -1,4 +1,4 @@
-# Tags
+# Tags :material-tag:
 
 My Tags
 
