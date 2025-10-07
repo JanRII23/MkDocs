@@ -102,7 +102,7 @@ nav:
   - Catch & Release:
     - Java: coding/java_file.md
   - Resources:
-    - resources\about.md
+    - resources/about.md
   - Tags: tags.md
 
 extra:
