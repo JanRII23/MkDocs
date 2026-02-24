@@ -109,6 +109,9 @@ nav:
     - tools/about.md
   - Resources:
     - resources/about.md
+    - resources/languages.md
+    - resources/misc.md
+    - resources/resources.md
   - Tags: tags.md
 
 extra:
