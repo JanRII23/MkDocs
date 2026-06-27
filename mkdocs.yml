@@ -101,8 +101,10 @@ nav:
     - blog/index.md
   - Catch & Release:
     - coding/about.md
-    - Java: coding/java_file.md
-    - Python: coding/python_file.md
+    - coding/c_sharp.md
+    - coding/java_file.md
+    - coding/python_file.md
+    - coding/rust.md
   - Projects:
     - projects/about.md
   - Rig:
